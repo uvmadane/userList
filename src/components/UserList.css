@@ -1,0 +1,40 @@
+.userListContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.searchBar{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.useList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.userCard{
+    width: calc(20% - 20px);
+    padding: 30px;
+    margin: 10px;
+    border: none;
+    box-shadow: 5px 5px 4px rgba(0,0,0, 0.2);
+    box-sizing: border-box; 
+    flex: 1 1 150px; 
+}
+.userDetails{
+    text-align: center;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    border: 5px solid #e2a042dd;
+}
